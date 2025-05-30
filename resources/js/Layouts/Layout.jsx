@@ -1,6 +1,7 @@
 import { Head } from "@inertiajs/react";
 import Header from "@/Components/Layout/Header";
 import Footer from "@/Components/Layout/Footer";
+import { useState } from "react";
 
 export default function Layout({ children, header }) {
     const scrollToSection = (id) => {
